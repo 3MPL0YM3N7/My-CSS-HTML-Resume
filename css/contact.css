@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* TITLE */
+.contact-title{
+    margin-bottom:30px;
+}
+
+
+/* FILLER */
+.filler{
+    flex:1;
+}

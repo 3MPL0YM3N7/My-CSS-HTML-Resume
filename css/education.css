@@ -1,0 +1,43 @@
+/* TITLE */
+.education-description-container{
+    margin-top:30px;
+}
+
+
+/* EDUCATION & CERTIFICATIONS */
+
+.education-item-container, .certifications-item-container{
+    border:3px solid #3282B8;
+    border-radius:5px;
+    margin-bottom:20px;
+    font-size:large;
+    padding:10px;
+}
+.date-confirmation-container{
+    display:flex;
+    justify-content:space-between;
+}
+.pdf-svg{
+    width:20px;
+    margin-bottom:8px;
+    margin-right:5px;
+}
+.education-date{
+    font-weight: 600;
+}
+.svg{
+    margin-right:20px;
+    width:30px;
+    margin-bottom:3px;
+}
+li{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+
+/* TITLE 2 */
+.certifications-title{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,147 @@
+body{
+    background-color:#BBE1FA;
+    margin:0px;
+    font-family: Avenir-Regular;
+}
+li{
+    list-style-type: none;
+}
+@font-face{
+    font-family: Trajan-Bold;
+    src:url(./fonts/TrajanPro-Bold.otf)
+}
+@font-face{
+    font-family: Trajan-Regular;
+    src:url(./fonts/TrajanPro-Regular.ttf)
+}
+@font-face{
+    font-family: Avenir-Regular;
+    src: url(./fonts/Avenir-Regular.ttf);
+}
+@font-face{
+    font-family: Avenir-Heavy;
+    src: url(./fonts/Avenir-Heavy.ttf);
+}
+h3{
+    font-family: Avenir-Heavy;
+}
+
+
+/* HEADER */
+.nav-link {
+    color:black;
+    --bs-nav-link-hover-color:#3282B8;
+}
+
+
+/* INTRO */
+h1{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Trajan-Bold;
+    font-size:4.625rem;
+}
+#intro-title2{
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-family: Trajan-Regular;
+}
+.intro-container{
+    position:relative;
+}
+.intro-image-container{
+    height: 50vh;
+    opacity:0.15;
+}
+.intro-image{
+    width:100%;
+    object-fit: cover;
+    height:100%;
+}
+.underline{
+    text-decoration: underline;
+}
+
+
+/* WHO AM I */
+.my-picture-container{
+    display:flex;
+    justify-content:center;
+}
+.my-picture{
+    width:200px;
+    border-radius:50%;
+    margin-top:100px;
+    border:1px solid #3282B8;
+}
+.description1-container{
+    display:flex;
+    justify-content:center;
+    margin-top:40px;
+}
+.description2-container{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+}
+
+
+/* SKILLS */
+.skills-title-container{
+    margin-top:150px; 
+}
+
+
+/* BEST SKILL */
+.pullup-cat{
+    height:170px;
+    border:2px solid #3282B8;
+}
+
+
+/* BOOTSTRAP */
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+    border:1px solid #3282B8;
+}
+.feature-title{
+    font-family: Avenir-Regular;
+}
+
+
+/* CONTACT */
+.contact-container{
+    margin-top:120px;
+}
+.contact-text{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.contact-text2{
+    display:flex;
+    justify-content:center;
+}
+.contact-button{
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.btn{
+    font-size: 1.5rem;
+    --bs-btn-padding-x:30px;
+    padding-top:0.675rem;
+    background-color: #0F4C75;
+    color:white;
+    border:0;
+}
+
+
+/* FOOTER */
